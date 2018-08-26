@@ -1,7 +1,3 @@
-package javaprgms;
-import java.util.*;
-
-import javax.swing.SortingFocusTraversalPolicy;
 public class PositiveOrNegative {
 
 	public static void main(String[] args) {
