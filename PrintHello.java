@@ -6,7 +6,7 @@ public class PrintHello {
        System.out.println("Enter the num:");
        int n=sc.nextInt();
        for(int i=0;i<n;i++) {
-    	   System.out.println("Hello World");
+    	   System.out.println("Hello");
        }
 	}
 
