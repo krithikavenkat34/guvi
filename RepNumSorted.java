@@ -16,11 +16,12 @@ public class RepNumSorted {
                 if(arr[i]==arr[j])
                 {
                     arr1[i]=arr[i];
+                    arr[j]=0;
                 }
             }
         }
         Arrays.sort(arr1);
-        for(int i=0;i<x;i++)
+        for(int i=0;i<arr1.length;i++)
         {
             if(arr1[i]!=0)
             {
