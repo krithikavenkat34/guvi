@@ -24,7 +24,7 @@ public class RepNumSorted {
         {
             if(arr1[i]!=0)
             {
-                System.out.print(arr[i]+" ");
+                System.out.print(arr1[i]+" ");
             }
             else continue;
         }
