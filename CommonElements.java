@@ -1,5 +1,5 @@
 import java.util.*;
-public class CommonElements {
+public class MyClass {
     public static void main(String args[]) {
         Scanner sc=new Scanner(System.in);
         int x=sc.nextInt();
@@ -15,9 +15,12 @@ public class CommonElements {
         }
         for(int i=0;i<x;i++)
         {
-            if(a[i]==b[i])
+            for(int j=0;j<x;j++)
+            {
+            if(a[i]==b[j])
             {
                   System.out.print(a[i]+" ");
+            }
             }
         }
     }
